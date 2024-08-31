@@ -1,7 +1,7 @@
 CFLAGS		= -Wall -Werror -Wextra
 #THREADFLAG	= -g -fsanitize=thread
 OBJS_DIR	= objects/
-NAME		= philo_bonus
+NAME		= philo
 SRC	 		= philo_bonus.c utils_bonus.c simulation2_bonus.c simulation_bonus.c
 OBJS 		= $(addprefix $(OBJS_DIR), $(SRC:.c=.o))
 HEADER 		= philo_bonus.h
